@@ -28,7 +28,7 @@ Note:
 
 ## Prerequisities
 
-- Ensure docker is installed
+- Ensure docker is installed to run the containerized application
 - Port 8080 is used 
 
 Steps to build and run 
@@ -43,7 +43,9 @@ docker build -t receipt-processor .
 
 3. Run the Docker Container
 
+```
 docker run -p 8080:8080 receipt-processor
+```
 
 4. Test the application. 
 
